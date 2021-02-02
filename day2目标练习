@@ -1,0 +1,61 @@
+第一题
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<h1>冲冲冲</h1>
+<script>
+for (var i = 10; i >= 1; i--) { 
+            for (var k = 0; k < 10 - i; k++) {
+                console.log('&nbsp;&nbsp;&nbsp;');
+            }
+            for (var j = 0; j < i; j++) {   
+                console.log('$&nbsp;&nbsp;&nbsp;&nbsp;');
+            }
+            console.log('<br />');
+        }
+</script>
+</body>
+</ html>
+第二题
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<h1>冲冲冲</h1>
+<p><结果/p>>
+<script>
+function myfunction(x) {
+    var result = 1;
+    for (var i = 1; i <= x; i++) {
+        result *= i;
+    }
+    return result;
+
+
+}
+
+console.log(myfunction(66));
+
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+</head>
+<body>
+<h1>冲冲冲</h1>
+<p><结果/p>>
+<脚本>
+第三题
+console.log（Math.pow（5,2））;
+
+</script>
+</body>
+</html>
